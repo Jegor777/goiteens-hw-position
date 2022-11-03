@@ -432,6 +432,37 @@ address{
     margin-left: 0;
     margin-top: 9px;
 }
+/* приеднуйтесь */
+.join-networks {
+    color: var(--thirdly-text-color);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 516px;
+    
+    
+  }
+  
+  .footer .networks {
+    margin-top: 20px;
+    margin-left: 516px;
+
+  }
+  
+  .join .icon-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--thirdly-text-color);
+  }
+  .join .icon-link:hover,
+  .join .icon-link:focus{
+    background-color: var(--accent-color);
+  }
+
+  
+  .join .contact-icon {
+    fill: currentColor;
+  }
  /* portfolio */
  body{
     font-family: "Roboto", sans_serif;
