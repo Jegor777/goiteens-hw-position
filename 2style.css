@@ -486,11 +486,15 @@ address{
 
     
   }
+
   .join .icon-link:hover,
   .join .icon-link:focus{
     background-color: var(--accent-color);
   }
-
+  .join .icon-team:not(:last-child){
+    margin-left: 0;
+    margin-right: 9px;
+  }
   
   .join .contact-icon {
     fill: currentColor;
